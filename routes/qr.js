@@ -63,7 +63,7 @@ router.get('/', async (req, res) => {
                             <!DOCTYPE html>
                             <html>
                             <head>
-                                <title>CASPER XD ULTRA | QR CODE</title>
+                                <title>DAVE X | QR CODE</title>
                                 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
                                 <style>
                                     body {
@@ -167,7 +167,7 @@ router.get('/', async (req, res) => {
                             </head>
                             <body>
                                 <div class="container">
-                                    <h1>CASPER QR CODE</h1>
+                                    <h1>DAVE X QR CODE</h1>
                                     <div class="qr-container">
                                         <div class="qr-code pulse">
                                             <img src="${qrImage}" alt="QR Code"/>
@@ -229,35 +229,35 @@ router.get('/', async (req, res) => {
                         let b64data = compressedData.toString('base64');
                         const Sess = await sendButtons(Casper, Casper.user.id, {
             title: '',
-            text: 'CASPER-XD-ULTRA;' + b64data,
-            footer: `> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄᴀꜱᴘᴇʀ ᴛᴇᴄʜ*`,
+            text: 'DAVE-X;' + b64data,
+            footer: `> *Dave Tech*`,
             buttons: [
                 { 
                     name: 'cta_copy', 
                     buttonParamsJson: JSON.stringify({ 
                         display_text: 'Copy Session', 
-                        copy_code: 'CASPER-XD-ULTRA;' + b64data 
+                        copy_code: 'DAVE-X;' + b64data 
                     }) 
                 },
                 {
                     name: 'cta_url',
                     buttonParamsJson: JSON.stringify({
                         display_text: 'Visit Bot Repo',
-                        url: 'https://github.com/Casper-Tech-ke/CASPER-XD-ULTRA'
+                        url: 'https://github.com/Davex-254/DAVE-X'
                     })
                 },
                 {
                     name: 'cta_url',
                     buttonParamsJson: JSON.stringify({
                         display_text: 'Join WaChannel',
-                        url: 'https://whatsapp.com/channel/0029VbCK8vlKwqSSkFkC1l2k'
+                        url: 'https://whatsapp.com/channel/0029VbApvFQ2Jl84lhONkc3k'
                     })
                 },
                 {
                     name: 'cta_url',
                     buttonParamsJson: JSON.stringify({
                         display_text: 'Join WaChannel 2',
-                        url: 'https://whatsapp.com/channel/0029Vb6XJQQHrDZi1RzKu90t'
+                        url: 'https://whatsapp.com/channel/0029VawCel7GOj9ktLjkxQ3g'
                     })
                 }
             ]
