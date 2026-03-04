@@ -8,7 +8,7 @@
   "author": "TRABY CASPER",
   "license": "GPL-3.0 license",
   "dependencies": {
-    "@whiskeysockets/baileys": "npm:baileys@6.7.21",
+   "@whiskeysockets/baileys": "npm:wileys@^0.5.1",
     "bcryptjs": "^3.0.2",
     "gifted-btns": "*",
     "body-parser": "*",
